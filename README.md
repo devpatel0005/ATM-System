@@ -58,4 +58,6 @@ Perform Operations:
 
 Follow the on-screen instructions to perform the desired operation.
 Contributor
-Your Name
+1. Hari Patel
+2. Dev Patel
+3. Rony Padmani
