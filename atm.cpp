@@ -33,7 +33,7 @@ public:											// public member functions
 	{
 		return name;
 	}
-};
+
 
 //getPIN function is returning the user's PIN
 	int getPIN()
@@ -69,3 +69,4 @@ public:											// public member functions
 			getch();			  
 		}
 	}
+};
