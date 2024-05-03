@@ -69,6 +69,23 @@ public:											// public member functions
 			getch();			  
 		}
 	}
+//cashWithDraw function is used to withdraw money from ATM
+	void cashWithDraw(int amount_a)
+	{
+		if (amount_a > 0 && amount_a < balance)		// check entered amount validity
+		{
+			balance -= amount_a;		// balance = balance - amount_a
+			cout << endl << "Please Collect Your Cash";
+			cout << endl << "Available Balance :" << balance;
+			getch();				
+		}
+
+		else
+		{
+			cout << endl << "Invalid Input or Insufficient Balance";
+			getch();				
+		}
+	}
 };
 int main()
 {
