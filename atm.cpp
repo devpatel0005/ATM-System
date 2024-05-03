@@ -159,7 +159,18 @@ int main()
 				default:							// handle invalid user inputs
 					cout << endl << "Enter Valid Data !!!";
 				}
+                             } while (1);				  // condition will always TRUE and loop is										capable of running infinite times
+		}
 
+		else
+		{
+			cout << endl << "User Details are Invalid !!! ";
+			getch();
+		}
+	} while (1);						// condition will always TRUE and loop is										capable of running infinite times
+
+	return 0;
+}
 
 
 
