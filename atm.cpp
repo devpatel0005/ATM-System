@@ -81,3 +81,23 @@ int main()
 	atm user1;
 	// Set User Details ( into object )         ( Setting Default Data )
 	user1.setData(987654321, "Hardik", 1234, 50000, "9370054900");
+	do
+	{
+		
+
+		cout << endl << "*Welcome to ATM" << endl;
+		cout << endl << "Enter Your Account No ";	  // asking user to enter account no
+		cin >> enterAccountNo;
+
+		cout << endl << "Enter PIN ";				 // asking user to enter PIN
+		cin >> enterPIN;
+
+
+		// check whether enter values matches with user details
+		if ((enterAccountNo == user1.getAccountNo()) && (enterPIN == user1.getPIN()))
+		{
+			do
+			{
+				int amount = 0;
+				string oldMobileNo, newMobileNo;
+
