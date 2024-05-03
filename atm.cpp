@@ -142,7 +142,24 @@ int main()
 					// getting and printing user details
 					getch();
 					break;
-				
+				case 4:								 
+					cout << endl << "Enter Old Mobile No. ";
+					cin >> oldMobileNo;							// take old mobile no
+
+					cout << endl << "Enter New Mobile No. ";
+					cin >> newMobileNo;							// take new mobile no
+
+					user1.setMobile(oldMobileNo, newMobileNo);	// now set new mobile no
+					break;
+
+					
+				case 5:
+					exit(0);						// exit application
+
+				default:							// handle invalid user inputs
+					cout << endl << "Enter Valid Data !!!";
+				}
+
 
 
 
