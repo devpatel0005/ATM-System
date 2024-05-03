@@ -116,6 +116,16 @@ int main()
 														// passing the withdraw amount 
 					break;
 
+				case 3:								
+					cout << endl << "*** User Details are :- ";
+					cout << endl << "-> Account no :" << user1.getAccountNo();
+					cout << endl << "-> Name      :" << user1.getName();
+					cout << endl << "-> Balance   :" << user1.getBalance();
+					cout << endl << "-> Mobile No. :" << user1.getMobileNo();
+					// getting and printing user details
+					getch();
+				
+
 
 
 
