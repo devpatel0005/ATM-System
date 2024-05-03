@@ -109,5 +109,13 @@ int main()
 					getch();
 					break;
 
+				case 2:								
+					cout << endl << "Enter the amount :";
+					cin >> amount;
+					user1.cashWithDraw(amount);			// calling cashWithdraw function 
+														// passing the withdraw amount 
+					break;
+
+
 
 
