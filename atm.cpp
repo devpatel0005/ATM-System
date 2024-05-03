@@ -101,3 +101,13 @@ int main()
 				int amount = 0;
 				string oldMobileNo, newMobileNo;
 
+				switch (choice)						// switch condition
+				{
+				case 1:							
+					cout << endl << "Your Bank balance is :" << user1.getBalance();
+					// getBalance is ... printing the users	bank balance
+					getch();
+					break;
+
+
+
